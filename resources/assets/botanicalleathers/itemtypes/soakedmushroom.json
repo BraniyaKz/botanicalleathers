@@ -1,7 +1,7 @@
 {
   "code": "soakedmushroom",
   "class": "Item",
-  "maxstacksize": 16,
+  "maxstacksize": 32,
   "variantgroups": [
     {
       "code": "type",
@@ -33,11 +33,11 @@
     "shelvable": true,
     "juiceablePropertiesByType": {
       "*-slop": {
-        "litresPerItem": 1,
+        "litresPerItem": 0.5,
         "liquidStack": {
           "type": "item",
           "code": "botanicalleathers:fungalresidue",
-          "stacksize": 100
+          "stacksize": 1
         },
         "pressedStack": {
           "type": "item",

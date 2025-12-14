@@ -6,7 +6,7 @@
     "handbook": { "ignoreCreativeInvStacks": true },
     "waterTightContainerProps": {
       "containable": true,
-      "itemsPerLitre": 1,
+      "itemsPerLitre": 10,
       "texture": { "base": "block/liquid/fungalresidue" },
       "allowSpill": true,
       "whenSpilled": {
