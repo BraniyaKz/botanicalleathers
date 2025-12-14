@@ -34,14 +34,16 @@
   "item-fungalresidue": "Mushroom residue",
   "incontainer-item-fungalresidue": "Mushroom residue",
 
-  "botanicalleathers:item-corkmaterial-steamed": "Oak Bark (steamed)",
-  "botanicalleathers:item-corkmaterial-prepared": "Oak Bark (prepared)",
-  "botanicalleathers:item-corkmaterial-raw": "Oak Bark (raw)",
-  "botanicalleathers:item-corkmaterial-sheet": "Cork (sheet)",
-  "botanicalleathers:item-corkmaterial-soaked": "Oak Bark (soaked)",
-  "botanicalleathers:item-corkbundle-prepared": "Corkbundle (prepared)",
-  "botanicalleathers:item-corkbundle-steamed": "Corkbundle (steamed)",
-  
-  "botanicalleathers:item-driedfruitpulp": "Dried fruit pulp",
-  "item-hardenedfruitpitch": "Hardened fruit pitch"
+  "item-corkmaterial-steamed": "Oak Bark (steamed)",
+  "item-corkmaterial-prepared": "Oak Bark (prepared)",
+  "item-corkmaterial-raw": "Oak Bark (raw)",
+  "item-corkmaterial-sheet": "Cork (sheet)",
+  "item-corkmaterial-soaked": "Oak Bark (soaked)",
+  "item-corkbundle-prepared": "Corkbundle (prepared)",
+  "item-corkbundle-steamed": "Corkbundle (steamed)",
+
+  "item-slicedfruitpulp-apple": "Sliced Fruit Pulp (Apple)",
+  "item-slicedfruitpulp-mango": "Sliced Fruit Pulp (Mango)",
+  "botanicalleatherd:item-fruitpitch-apple-hot": "Fruit pitch (Hot)",
+  "item-fruitpitch-apple-cold": "Fruit pitch (Cold)"
 }

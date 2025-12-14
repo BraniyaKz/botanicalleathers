@@ -1,0 +1,68 @@
+[
+  {
+    "code": "fruitpitch-apple-reheat",
+    "perishableProps": {
+      "type": "Harden",
+      "freshHours": { "avg": 2 },
+      "transitionHours": { "avg": 0.1 },
+      "transitionRatio": 1,
+      "transitionedStack": {
+        "type": "item",
+        "code": "botanicalleathers:fruitpitch-apple-cold"
+      }
+    },
+    "shape": { "base": "game:block/food/meal/liquid" },
+    "ingredients": [
+      {
+        "code": "coldpitch",
+        "validStacks": [
+          {
+            "type": "item",
+            "code": "botanicalleathers:fruitpitch-apple-cold"
+          }
+        ],
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "portionSizeLitres": 1
+      }
+    ],
+    "cooksInto": {
+      "type": "Item",
+      "code": "botanicalleathers:fruitpitch-apple-hot",
+      "quantity": 100
+    }
+  },
+  {
+    "code": "fruitpitch-mango-reheat",
+    "perishableProps": {
+      "type": "Harden",
+      "freshHours": { "avg": 2 },
+      "transitionHours": { "avg": 0.1 },
+      "transitionRatio": 1,
+      "transitionedStack": {
+        "type": "item",
+        "code": "botanicalleathers:fruitpitch-mango-cold"
+      }
+    },
+    "shape": { "base": "game:block/food/meal/liquid" },
+    "ingredients": [
+      {
+        "code": "coldpitch",
+        "validStacks": [
+          {
+            "type": "item",
+            "code": "botanicalleathers:fruitpitch-mango-cold"
+          }
+        ],
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "portionSizeLitres": 1
+      }
+    ],
+    "cooksInto": {
+      "type": "Item",
+      "code": "botanicalleathers:fruitpitch-mango-hot",
+      "quantity": 100
+    }
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "code": "slicedfruitpulp",
+  "class": "Item",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "apple", "mango" ]
+    }
+  ],
+  "maxstacksize": 64,
+  "shape": { "base": "game:item/food/fruit/pineapple-slice" },
+  "texturesByType": {
+    "*-apple": {
+      "pineapple": { "base": "game:block/food/pie/fill-apple" }
+    },
+    "*-mango": {
+      "pineapple": { "base": "game:block/food/pie/fill-mango" }
+    }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "botanicalleathers": [ "*" ]
+  },
+  "attributes": {
+    "handbook": { "groupBy": [ "slicedfruitpulp" ] },
+    "isPreparedIngredient": true,
+    "displaycaseable": true,
+    "shelvable": true,
+    "onDisplayTransform": {
+      "translation": {
+        "x": 0,
+        "y": -0.25,
+        "z": 0
+      },
+      "scale": 0.5
+    },
+    "groundable": true,
+    "onshelfTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.85
+    },
+    "groundStorageTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.85
+    }
+  },
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -57,
+      "y": 58,
+      "z": 24
+    },
+    "origin": {
+      "x": 0.25,
+      "y": -0.15,
+      "z": 0.55
+    },
+    "scale": 1.9
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 40,
+      "z": -25
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.6
+  }
+}

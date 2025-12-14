@@ -1,98 +1,83 @@
 {
-  "code": "fruitpitch",
-  "class": "ItemLiquidPortion",
-  "variantgroups": [
-    {
-      "code": "state",
-      "states": [ "hot", "cold" ]
-    }
-  ],
-  "matterState": "liquid",
-  "attributes": {
-    "handbook": {
-      "ignoreCreativeInvStacks": true,
-      "groupBy": [ "botanicalleathers:fruitpitch-*" ]
-    },
-    "waterTightContainerProps": {
-      "containable": true,
-      "itemsPerLitre": 1,
-      "texture": { "base": "game:block/food/pie/fill-mixedfruit" },
-      "allowSpill": true,
-      "whenSpilled": {
-        "action": "DropContents",
-        "stack": {
-          "type": "item",
-          "code": "botanicalleathers:fruitpitch-{state}"
-        }
-      }
-    }
-  },
-  "shape": { "base": "game:item/liquid" },
-  "texture": { "base": "game:block/food/pie/fill-mixedfruit" },
-  "creativeinventoryStacks": [
-    {
-      "tabs": [ "general", "liquids" ],
-      "stacks": [
-        {
-          "type": "block",
-          "code": "game:woodbucket",
-          "attributes": {
-            "ucontents": [
-              {
-                "type": "item",
-                "code": "botanicalleathers:fruitpitch-{state}",
-                "makefull": true
-              }
-            ]
-          }
-        }
-      ]
-    }
-  ],
-  "maxstacksize": 5000,
-  "materialDensity": 200,
-  "guiTransform": {
-    "translation": {
-      "x": 0,
-      "y": 1,
-      "z": 0
-    },
-    "rotation": {
-      "x": 123,
-      "y": -33,
-      "z": -13
-    },
-    "origin": {
-      "x": 0.5,
-      "y": 0,
-      "z": 0.5
-    },
-    "scale": 1.4
-  },
-  "transitionablePropsByType": {
-    "*-hot": [
-      {
-        "type": "Harden",
-        "freshHours": { "avg": 4 },
-        "transitionHours": { "avg": 0.5 },
-        "transitionedStack": {
-          "type": "item",
-          "code": "botanicalleathers:fruitpitch-cold"
-        },
-        "transitionRatio": 1
-      }
-    ],
-    "*-cold": [
-      {
-        "type": "Harden",
-        "freshHours": { "avg": 4 },
-        "transitionHours": { "avg": 0.5 },
-        "transitionedStack": {
-          "type": "item",
-          "code": "botanicalleathers:hardenedfruitpitch"
-        },
-        "transitionRatio": 1
-      }
-    ]
-  }
+	"code": "fruitpitch",
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "apple", "mango" ]
+		},
+		{
+			"code": "state",
+			"states": [ "hot", "cold" ]
+		}
+	],
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true,
+			"groupBy": [ "fruitpitch-*" ]
+		},
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texture": { "base": "block/liquid/fruitpitch-{type}-{state}" },
+			"allowSpill": true,
+			"whenSpilled": {
+				"action": "DropContents",
+				"stack": {
+					"type": "item",
+					"code": "fruitpitch-{type}-{state}"
+				}
+			}
+		}
+	},
+	"shape": { "base": "game:item/liquid" },
+	"texture": { "base": "block/liquid/fruitpitch-{type}-{state}" },
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.4
+	},
+	"transitionablePropsByType": {
+		"*-apple-hot": [
+			{
+				"type": "Harden",
+				"freshHours": { "avg": 2 },
+				"transitionHours": { "avg": 0.1 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "botanicalleathers:fruitpitch-apple-cold"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-mango-hot": [
+			{
+				"type": "Harden",
+				"freshHours": { "avg": 2 },
+				"transitionHours": { "avg": 0.1 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "botanicalleathers:fruitpitch-mango-cold"
+				},
+				"transitionRatio": 1
+			}
+		]
+	}
 }

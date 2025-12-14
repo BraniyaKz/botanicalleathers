@@ -1,0 +1,306 @@
+[
+  {
+    "comment": "Small Hide - Apple (Hot)",
+    "ingredientPattern": "PH",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:fruitpitch-apple-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-small-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Small Hide - Mango (Hot)",
+    "ingredientPattern": "PH",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:fruitpitch-mango-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-small-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Medium Hide - Apple (Hot)",
+    "ingredientPattern": "PP,H_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:fruitpitch-apple-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-medium-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Medium Hide - Mango (Hot)",
+    "ingredientPattern": "PP,H_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:fruitpitch-mango-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-medium-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Large Hide - Apple (Hot)",
+    "ingredientPattern": "PP,PP,H_",
+    "recipeGroup": 3,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:fruitpitch-apple-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-large-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Large Hide - Mango (Hot)",
+    "ingredientPattern": "PP,PP,H_",
+    "recipeGroup": 3,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:fruitpitch-mango-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-large-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Huge Hide - Apple (Hot)",
+    "ingredientPattern": "PPP,PPP,H__",
+    "recipeGroup": 4,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:fruitpitch-apple-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-huge-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Huge Hide - Mango (Hot)",
+    "ingredientPattern": "PPP,PPP,H__",
+    "recipeGroup": 4,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:fruitpitch-mango-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-huge-fruit",
+      "stacksize": 1
+    }
+  }
+]
