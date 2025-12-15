@@ -1,0 +1,44 @@
+[
+  {
+    "code": "soakedpineappleleaf",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "litres": 1
+      },
+      {
+        "type": "item",
+        "code": "botanicalfiber-pineappleleaf-raw",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "botanicalfiber-pineappleleaf-soaked",
+      "stackSize": 1
+    }
+  },
+  {
+    "code": "soakedcactusfiber",
+    "sealHours": 2,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "litres": 1
+      },
+      {
+        "type": "item",
+        "code": "botanicalfiber-cactusfiber-raw",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "botanicalfiber-cactusfiber-soaked",
+      "stackSize": 1
+    }
+  }
+]

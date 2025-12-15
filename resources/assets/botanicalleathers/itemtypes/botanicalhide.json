@@ -12,7 +12,7 @@
     },
     {
       "code": "type",
-      "states": [ "fungus", "fruit", "cork" ]
+      "states": [ "fungus", "fruit", "cork", "botanicalfiber" ]
     }
   ],
   "skipVariants": [
@@ -27,29 +27,27 @@
     "*-medium-fruit": { "base": "item/resource/hide/{size}2" },
     "*-large-fruit": { "base": "item/resource/hide/{size}2" },
     "*-huge-fruit": { "base": "item/resource/hide/{size}2" },
+    "*-small-botanicalfiber": { "base": "item/resource/hide/{size}2" },
+    "*-medium-botanicalfiber": { "base": "item/resource/hide/{size}2" },
+    "*-large-botanicalfiber": { "base": "item/resource/hide/{size}2" },
+    "*-huge-botanicalfiber": { "base": "item/resource/hide/{size}2" },
     "*-small-cork": { "base": "item/resource/hide/{size}3" },
     "*-medium-cork": { "base": "item/resource/hide/{size}3" },
     "*-large-cork": { "base": "item/resource/hide/{size}3" },
     "*-huge-cork": { "base": "item/resource/hide/{size}3" }
   },
   "texturesByType": {
-    "*-raw-*-fungus": {
-      "material": { "base": "game:block/plant/mushroom/bolete/cap" }
-    },
-    "*-raw-*-fruit": {
-      "material": { "base": "game:block/food/pie/fill-mixedfruit" }
-    },
-    "*-raw-*-cork": {
-      "material": { "base": "game:block/wood/oak" }
-    },
     "*-prepared-*-fungus": {
       "material": { "base": "game:block/plant/mushroom/bolete/cap" }
     },
     "*-prepared-*-fruit": {
-      "material": { "base": "game:block/food/pie/fill-mixedfruit" }
+      "material": { "base": "block/liquid/botanicalpitch-apple-cold" }
     },
     "*-prepared-*-cork": {
       "material": { "base": "game:block/wood/oak" }
+    },
+    "*-prepared-*-botanicalfiber": {
+      "material": { "base": "block/liquid/botanicalpitch-cactusfiber-cold" }
     }
   },
   "creativeinventory": {
@@ -80,6 +78,17 @@
         "type": "Perish",
         "freshHours": { "avg": 24 },
         "transitionHours": { "avg": 48 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        }
+      }
+    ],
+    "*-botanicalfiber": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 96 },
+        "transitionHours": { "avg": 120 },
         "transitionedStack": {
           "type": "item",
           "code": "game:rot"
@@ -156,12 +165,8 @@
           "z": 0
         }
       },
-      "*-large-*": {
-
-      },
-      "*-huge-*": {
-
-      }
+      "*-large-*": {},
+      "*-huge-*": {}
     }
   },
   "groundTransformByType": {
@@ -357,17 +362,9 @@
     }
   },
   "fpHandTransformByType": {
-    "*-small-*": {
-      "scale": 0.75
-    },
-    "*-medium-*": {
-      "scale": 0.85
-    },
-    "*-large-*": {
-      "scale": 1
-    },
-    "*-huge-*": {
-      "scale": 1.15
-    }
+    "*-small-*": { "scale": 0.75 },
+    "*-medium-*": { "scale": 0.85 },
+    "*-large-*": { "scale": 1 },
+    "*-huge-*": { "scale": 1.15 }
   }
 }

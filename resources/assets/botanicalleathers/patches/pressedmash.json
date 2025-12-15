@@ -1,16 +1,20 @@
 [
   {
-    "op": "addmerge",
+    "op": "add",
     "path": "/variantgroups/0/states/-",
     "value": "mushroom",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
-    "op": "addmerge",
-    "path": "/textures/material/byType",
-    "value": {
-      "*-mushroom": { "base": "game:block/plant/mushroom/bolete/cap" }
-    },
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "pineappleleaf",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "cactusfiber",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
@@ -33,12 +37,36 @@
       "*-mushroom": {
         "liquidStack": {
           "type": "item",
-          "code": "botanicalleathers:fungalresidue",
+          "code": "botanicalleathers:residue-fungal",
           "stacksize": 1
         },
         "pressedStack": {
           "type": "item",
           "code": "game:pressedmash-mushroom",
+          "stacksize": 1
+        }
+      },
+      "*-pineappleleaf": {
+        "liquidStack": {
+          "type": "item",
+          "code": "botanicalleathers:residue-pineappleleaf",
+          "stacksize": 1
+        },
+        "pressedStack": {
+          "type": "item",
+          "code": "game:pressedmash-pineappleleaf",
+          "stacksize": 1
+        }
+      },
+      "*-cactusfiber": {
+        "liquidStack": {
+          "type": "item",
+          "code": "botanicalleathers:residue-cactusfiber",
+          "stacksize": 1
+        },
+        "pressedStack": {
+          "type": "item",
+          "code": "game:pressedmash-cactusfiber",
           "stacksize": 1
         }
       },

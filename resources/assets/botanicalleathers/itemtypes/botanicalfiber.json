@@ -1,0 +1,318 @@
+{
+  "code": "botanicalfiber",
+  "class": "Item",
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "botanicalleathers": [ "*" ]
+  },
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "plant",
+      "states": [ "pineappleleaf", "cactusfiber" ]
+    },
+    {
+      "code": "state",
+      "states": [ "raw", "soaked", "cleaned" ]
+    }
+  ],
+  "shape": { "base": "item/resource/pineappleleaves" },
+  "shapeByType": {
+    "*-pineappleleaf-*": {
+      "base": "item/resource/pineappleleaves"
+    },
+    "*-cactusfiber-*": {
+      "base": "game:item/oakbark"
+    }
+  },
+  "texturesByType": {
+    "*-pineappleleaf-raw": {
+      "bark4": { "base": "game:block/plant/crop/pineapple/bark4" },
+      "bark5": { "base": "game:block/plant/crop/pineapple/bark5" },
+      "bark6": { "base": "game:block/plant/crop/pineapple/bark6" }
+    },
+    "*-pineappleleaf-*": {
+      "bark4": { "base": "game:block/plant/crop/pineapple/bark1" },
+      "bark5": { "base": "game:block/plant/crop/pineapple/bark2" },
+      "bark6": { "base": "game:block/plant/crop/pineapple/bark3" }
+    },
+    "*-cactusfiber-raw": {
+      "bark": { "base": "game:block/plant/crop/pineapple/bark5" }
+    },
+    "*-cactusfiber-*": {
+      "bark": { "base": "game:block/plant/crop/pineapple/bark3" }
+    }
+  },
+  "attributes": {
+    "handbook": { "groupBy": [ "botanicalfiber-*" ] },
+    "displaycaseable": true,
+    "shelvable": true,
+    "groundable": true,
+    "juiceablePropertiesByType": {
+      "*-cleaned": {
+        "litresPerItem": 0.5,
+        "liquidStack": {
+          "type": "item",
+          "code": "botanicalleathers:residue-{plant}",
+          "stacksize": 1
+        },
+        "pressedStack": {
+          "type": "item",
+          "code": "game:pressedmash-{plant}",
+          "stacksize": 1
+        }
+      }
+    }
+  },
+  "attributesByType": {
+    "*-pineappleleaf-*": {
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": -0.25,
+          "z": 0
+        },
+        "scale": 0.5
+      },
+      "onshelfTransform": {
+        "rotation": {
+          "x": -30,
+          "y": 0,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 0.85
+      },
+      "groundStorageTransform": {
+        "rotation": {
+          "x": -25,
+          "y": -10,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.3,
+          "y": 0,
+          "z": 0.6
+        },
+        "scale": 0.8
+      }
+    },
+    "*-cactusfiber-*": {
+      "onDisplayTransform": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.8
+        },
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": -0.2,
+          "z": 1
+        },
+        "scale": 0.45
+      },
+      "groundStorageTransform": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": -0.8
+        },
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": -0.2,
+          "z": 1
+        },
+        "scale": 0.45
+      }
+    }
+  },
+  "combustiblePropsByType": {
+    "*-raw": {
+      "burnTemperature": 500,
+      "burnDuration": 10,
+      "smokeLevel": 1
+    },
+    "*-cleaned": {
+      "burnTemperature": 600,
+      "burnDuration": 15,
+      "smokeLevel": 1
+    }
+  },
+  "transitionablePropsByType": {
+    "*-soaked": [
+      {
+        "type": "Dry",
+        "freshHours": { "avg": 0 },
+        "transitionHours": { "avg": 12 },
+        "transitionRatio": 1.0,
+        "transitionedStack": {
+          "type": "item",
+          "code": "botanicalfiber-{plant}-cleaned"
+        }
+      }
+    ]
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.125,
+          "z2": 1
+        }
+      }
+    }
+  ],
+  "guiTransformByType": {
+    "*-pineappleleaf-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 145,
+        "y": 145,
+        "z": 2
+      },
+      "origin": {
+        "x": 0.55,
+        "y": 0.15,
+        "z": 0.4
+      },
+      "scale": 2.75
+    },
+    "*-cactusfiber-*": {
+      "translation": {
+        "x": 5,
+        "y": 5,
+        "z": 0
+      },
+      "scale": 1.45
+    }
+  },
+  "fpHandTransformByType": {
+    "*-pineappleleaf-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 101,
+        "y": 37,
+        "z": -140
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1.65
+    },
+    "*-cactusfiber-*": {
+      "translation": {
+        "x": 5,
+        "y": 5,
+        "z": 0
+      },
+      "scale": 1.45
+    }
+  },
+  "tpHandTransformbyType": {
+    "*-pineappleleaf-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.1,
+        "y": -0.15,
+        "z": 0.1
+      },
+      "scale": 0.55
+    },
+    "*-cactusfiber-*": {
+      "translation": {
+        "x": 0.1,
+        "y": -0.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.4
+    }
+  },
+  "groundTransformbyType": {
+    "*-pineappleleaf-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1.2
+    },
+    "*-cactusfiber-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1.2
+    }
+  }
+}

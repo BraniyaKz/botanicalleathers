@@ -1,10 +1,15 @@
 {
-  "code": "slicedfruitpulp",
+  "code": "slicedbotanicalpulp",
   "class": "Item",
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "botanicalleathers": [ "*" ]
+  },
   "variantgroups": [
     {
       "code": "type",
-      "states": [ "apple", "mango" ]
+      "states": [ "apple", "mango", "pineappleleaf", "cactusfiber" ]
     }
   ],
   "maxstacksize": 64,
@@ -15,15 +20,16 @@
     },
     "*-mango": {
       "pineapple": { "base": "game:block/food/pie/fill-mango" }
+    },
+    "*-pineappleleaf": {
+      "pineapple": { "base": "game:block/plant/crop/pineapple/bark5" }
+    },
+    "*-cactusfiber": {
+      "pineapple": { "base": "game:block/plant/crop/pineapple/bark3" }
     }
   },
-  "creativeinventory": {
-    "general": [ "*" ],
-    "items": [ "*" ],
-    "botanicalleathers": [ "*" ]
-  },
   "attributes": {
-    "handbook": { "groupBy": [ "slicedfruitpulp" ] },
+    "handbook": { "groupBy": [ "slicedbotanicalpulp" ] },
     "isPreparedIngredient": true,
     "displaycaseable": true,
     "shelvable": true,

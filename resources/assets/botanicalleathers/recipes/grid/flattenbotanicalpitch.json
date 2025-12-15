@@ -23,7 +23,7 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:fruitpitch-apple-hot"
+          "code": "botanicalleathers:botanicalpitch-apple-hot"
         },
         "requiresLitres": 1
       }
@@ -61,7 +61,7 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:fruitpitch-mango-hot"
+          "code": "botanicalleathers:botanicalpitch-mango-hot"
         },
         "requiresLitres": 1
       }
@@ -72,6 +72,44 @@
     "output": {
       "type": "item",
       "code": "botanicalleathers:botanicalhide-prepared-small-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Small Hide - Pineapple (Hot) [NEW]",
+    "ingredientPattern": "PH",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:botanicalpitch-botanicalfiber-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-small-botanicalfiber",
       "stacksize": 1
     }
   },
@@ -99,7 +137,7 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:fruitpitch-apple-hot"
+          "code": "botanicalleathers:botanicalpitch-apple-hot"
         },
         "requiresLitres": 1
       }
@@ -137,7 +175,7 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:fruitpitch-mango-hot"
+          "code": "botanicalleathers:botanicalpitch-mango-hot"
         },
         "requiresLitres": 1
       }
@@ -148,6 +186,44 @@
     "output": {
       "type": "item",
       "code": "botanicalleathers:botanicalhide-prepared-medium-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Medium Hide - Pineapple (Hot) [NEW]",
+    "ingredientPattern": "PP,H_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:botanicalpitch-botanicalfiber-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-medium-botanicalfiber",
       "stacksize": 1
     }
   },
@@ -175,7 +251,7 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:fruitpitch-apple-hot"
+          "code": "botanicalleathers:botanicalpitch-apple-hot"
         },
         "requiresLitres": 1
       }
@@ -213,7 +289,7 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:fruitpitch-mango-hot"
+          "code": "botanicalleathers:botanicalpitch-mango-hot"
         },
         "requiresLitres": 1
       }
@@ -224,6 +300,44 @@
     "output": {
       "type": "item",
       "code": "botanicalleathers:botanicalhide-prepared-large-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Large Hide - Pineapple (Hot) [NEW]",
+    "ingredientPattern": "PP,PP,H_",
+    "recipeGroup": 3,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:botanicalpitch-botanicalfiber-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-large-botanicalfiber",
       "stacksize": 1
     }
   },
@@ -251,7 +365,7 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:fruitpitch-apple-hot"
+          "code": "botanicalleathers:botanicalpitch-apple-hot"
         },
         "requiresLitres": 1
       }
@@ -289,7 +403,7 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:fruitpitch-mango-hot"
+          "code": "botanicalleathers:botanicalpitch-mango-hot"
         },
         "requiresLitres": 1
       }
@@ -300,6 +414,44 @@
     "output": {
       "type": "item",
       "code": "botanicalleathers:botanicalhide-prepared-huge-fruit",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Huge Hide - Pineapple (Hot) [NEW]",
+    "ingredientPattern": "PPP,PPP,H__",
+    "recipeGroup": 4,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:botanicalpitch-botanicalfiber-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-huge-botanicalfiber",
       "stacksize": 1
     }
   }

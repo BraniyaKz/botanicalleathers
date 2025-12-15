@@ -1,16 +1,50 @@
-{
-  "code": "mushroomcompost",
-  "sealHours": 240,
-  "ingredients": [
-    {
+[
+  {
+    "code": "mushroomcompost",
+    "sealHours": 240,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "botanicalleathers:residue-fungal",
+        "litres": 10
+      }
+    ],
+    "output": {
       "type": "item",
-      "code": "botanicalleathers:fungalresidue",
-      "litres": 10
+      "code": "game:compost",
+      "stackSize": 3
     }
-  ],
-  "output": {
-    "type": "item",
-    "code": "game:compost",
-    "stackSize": 1
+  },
+  {
+    "code": "botanicalfibercompost",
+    "sealHours": 240,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "botanicalleathers:residue-pineappleleaf",
+        "litres": 10
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:compost",
+      "stackSize": 3
+    }
+  },
+  {
+    "code": "botanicalfibercompost",
+    "sealHours": 240,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "botanicalleathers:residue-cactusfiber",
+        "litres": 10
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "game:compost",
+      "stackSize": 3
+    }
   }
-}
+]

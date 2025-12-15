@@ -1,25 +1,31 @@
 {
-  "code": "fungalresidue",
+  "code": "residue",
   "class": "ItemLiquidPortion",
   "matterState": "liquid",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "fungal", "pineappleleaf", "cactusfiber" ]
+    }
+  ],
   "attributes": {
     "handbook": { "ignoreCreativeInvStacks": true },
     "waterTightContainerProps": {
       "containable": true,
       "itemsPerLitre": 10,
-      "texture": { "base": "block/liquid/fungalresidue" },
+      "texture": { "base": "block/liquid/residue-{type}" },
       "allowSpill": true,
       "whenSpilled": {
         "action": "DropContents",
         "stack": {
           "type": "item",
-          "code": "botanicalleathers:fungalresidue"
+          "code": "botanicalleathers:residue-{type}"
         }
       }
     }
   },
   "shape": { "base": "game:item/liquid" },
-  "texture": { "base": "block/liquid/fungalresidue" },
+  "texture": { "base": "block/liquid/residue-{type}" },
   "creativeinventoryStacks": [
     {
       "tabs": [ "general", "liquids" ],
@@ -31,7 +37,7 @@
             "ucontents": [
               {
                 "type": "item",
-                "code": "botanicalleathers:fungalresidue",
+                "code": "botanicalleathers:residue-{type}",
                 "makefull": true
               }
             ]

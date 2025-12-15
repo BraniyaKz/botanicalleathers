@@ -1,11 +1,11 @@
 {
-	"code": "fruitpitch",
+	"code": "botanicalpitch",
 	"class": "ItemLiquidPortion",
 	"matterState": "liquid",
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "apple", "mango" ]
+			"states": [ "apple", "mango", "pineappleleaf", "cactusfiber" ]
 		},
 		{
 			"code": "state",
@@ -15,25 +15,25 @@
 	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
-			"groupBy": [ "fruitpitch-*" ]
+			"groupBy": [ "botanicalpitch-*" ]
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		"waterTightContainerProps": {
 			"containable": true,
 			"itemsPerLitre": 100,
-			"texture": { "base": "block/liquid/fruitpitch-{type}-{state}" },
+			"texture": { "base": "block/liquid/botanicalpitch-{type}-{state}" },
 			"allowSpill": true,
 			"whenSpilled": {
 				"action": "DropContents",
 				"stack": {
 					"type": "item",
-					"code": "fruitpitch-{type}-{state}"
+					"code": "botanicalpitch-{type}-{state}"
 				}
 			}
 		}
 	},
 	"shape": { "base": "game:item/liquid" },
-	"texture": { "base": "block/liquid/fruitpitch-{type}-{state}" },
+	"texture": { "base": "block/liquid/botanicalpitch-{type}-{state}" },
 	"maxstacksize": 5000,
 	"materialDensity": 200,
 	"guiTransform": {
@@ -62,7 +62,7 @@
 				"transitionHours": { "avg": 0.1 },
 				"transitionedStack": {
 					"type": "item",
-					"code": "botanicalleathers:fruitpitch-apple-cold"
+					"code": "botanicalleathers:botanicalpitch-apple-cold"
 				},
 				"transitionRatio": 1
 			}
@@ -74,7 +74,31 @@
 				"transitionHours": { "avg": 0.1 },
 				"transitionedStack": {
 					"type": "item",
-					"code": "botanicalleathers:fruitpitch-mango-cold"
+					"code": "botanicalleathers:botanicalpitch-mango-cold"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-pineappleleaf-hot": [
+			{
+				"type": "Harden",
+				"freshHours": { "avg": 2 },
+				"transitionHours": { "avg": 0.1 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "botanicalleathers:botanicalpitch-pineappleleaf-cold"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-cactusfiber-hot": [
+			{
+				"type": "Harden",
+				"freshHours": { "avg": 2 },
+				"transitionHours": { "avg": 0.1 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "botanicalleathers:botanicalpitch-cactusfiber-cold"
 				},
 				"transitionRatio": 1
 			}
