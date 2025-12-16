@@ -1,77 +1,137 @@
 [
   {
+    "file": "game:blocktypes/plant/crop/pineapple.json",
     "op": "addmerge",
-    "path": "/dropsByType/*-8",
+    "path": "/dropsByType/*-11",
     "value": [
       {
         "type": "item",
         "code": "botanicalleathers:botanicalfiber-pineappleleaf-raw",
         "quantity": {
           "avg": 2,
-          "var": 1
+          "var": 0.5
         }
       }
-    ],
-    "file": "game:blocktypes/plant/crop/pineapple.json"
+    ]
   },
   {
+    "file": "game:blocktypes/plant/crop/pineapple.json",
     "op": "addmerge",
-    "path": "/dropsByType/*-segment",
+    "path": "/dropsByType/*-12",
     "value": [
       {
         "type": "item",
-        "code": "botanicalleathers:botanicalfiber-cactusfiber-raw",
+        "code": "botanicalleathers:botanicalfiber-pineappleleaf-raw",
         "quantity": {
           "avg": 2,
-          "var": 1
+          "var": 0.5
         }
       }
-    ],
-    "file": "game:blocktypes/plant/saguarocactus.json"
+    ]
   },
   {
+    "file": "game:blocktypes/plant/crop/pineapple.json",
     "op": "addmerge",
-    "path": "/dropsByType/*-topflowering",
+    "path": "/dropsByType/*-13",
     "value": [
       {
         "type": "item",
-        "code": "botanicalleathers:botanicalfiber-cactusfiber-raw",
+        "code": "botanicalleathers:botanicalfiber-pineappleleaf-raw",
         "quantity": {
           "avg": 2,
-          "var": 1
+          "var": 0.5
         }
       }
-    ],
-    "file": "game:blocktypes/plant/saguarocactus.json"
+    ]
   },
   {
+    "file": "game:blocktypes/plant/crop/pineapple.json",
     "op": "addmerge",
-    "path": "/drops",
+    "path": "/dropsByType/*-14",
     "value": [
       {
         "type": "item",
-        "code": "botanicalleathers:botanicalfiber-cactusfiber-raw",
+        "code": "botanicalleathers:botanicalfiber-pineappleleaf-raw",
         "quantity": {
           "avg": 3,
           "var": 1
         }
       }
-    ],
-    "file": "game:blocktypes/plant/barrelcactus.json"
+    ]
   },
   {
+    "file": "game:blocktypes/plant/crop/pineapple.json",
     "op": "addmerge",
-    "path": "/drops",
+    "path": "/dropsByType/*-15",
+    "value": [
+      {
+        "type": "item",
+        "code": "botanicalleathers:botanicalfiber-pineappleleaf-raw",
+        "quantity": {
+          "avg": 3,
+          "var": 1
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "op": "addmerge",
+    "path": "/dropsByType/*-16",
+    "value": [
+      {
+        "type": "item",
+        "code": "botanicalleathers:botanicalfiber-pineappleleaf-raw",
+        "quantity": {
+          "avg": 4.5,
+          "var": 1
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "op": "addmerge",
+    "path": "/dropsByType/*",
+    "value": [
+      {
+        "type": "item",
+        "code": "botanicalleathers:botanicalfiber-pineappleleaf-raw",
+        "quantity": {
+          "avg": 0.8,
+          "var": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/plant/saguarocactus.json",
+    "op": "addmerge",
+    "path": "/dropsByType/*",
     "value": [
       {
         "type": "item",
         "code": "botanicalleathers:botanicalfiber-cactusfiber-raw",
         "quantity": {
-          "avg": 2,
+          "avg": 4,
           "var": 1
         }
       }
-    ],
-    "file": "game:blocktypes/plant/silvertorchcactus.json"
+    ]
+  },
+  {
+    "file": "game:blocktypes/plant/saguarocactus.json",
+    "op": "addmerge",
+    "path": "/dropsByType/*-topripe",
+    "value": [
+      {
+        "type": "item",
+        "code": "botanicalleathers:botanicalfiber-cactusfiber-raw",
+        "quantity": {
+          "avg": 4,
+          "var": 1
+        }
+      }
+    ]
   }
 ]

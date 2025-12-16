@@ -7,6 +7,7 @@
     "botanicalleathers": [ "*" ]
   },
   "maxstacksize": 64,
+  "materialDensity": 200,
   "variantgroups": [
     {
       "code": "plant",
@@ -285,7 +286,7 @@
         "z": 0
       },
       "rotation": {
-        "x": 0,
+        "x": -25,
         "y": 0,
         "z": 0
       },
@@ -294,7 +295,7 @@
         "y": 0,
         "z": 0.5
       },
-      "scale": 1.2
+      "scale": 2.5
     },
     "*-cactusfiber-*": {
       "translation": {
