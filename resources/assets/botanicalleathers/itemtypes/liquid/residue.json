@@ -9,7 +9,10 @@
     }
   ],
   "attributes": {
-    "handbook": { "ignoreCreativeInvStacks": true },
+    "handbook": {
+      "ignoreCreativeInvStacks": true,
+      "groupBy": [ "residue-{type}-*" ]
+    },
     "waterTightContainerProps": {
       "containable": true,
       "itemsPerLitre": 10,

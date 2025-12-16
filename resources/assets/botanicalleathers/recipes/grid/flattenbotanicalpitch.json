@@ -76,7 +76,7 @@
     }
   },
   {
-    "comment": "Small Hide - Pineapple (Hot) [NEW]",
+    "comment": "Small Hide - Pineapple (Hot) [FIXED]",
     "ingredientPattern": "PH",
     "recipeGroup": 1,
     "ingredients": {
@@ -99,7 +99,45 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:botanicalpitch-botanicalfiber-hot"
+          "code": "botanicalleathers:botanicalpitch-pineappleleaf-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-small-botanicalfiber",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Small Hide - Cactus (Hot) [ADDED]",
+    "ingredientPattern": "PH",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:botanicalpitch-cactusfiber-hot"
         },
         "requiresLitres": 1
       }
@@ -190,7 +228,7 @@
     }
   },
   {
-    "comment": "Medium Hide - Pineapple (Hot) [NEW]",
+    "comment": "Medium Hide - Pineapple (Hot) [FIXED]",
     "ingredientPattern": "PP,H_",
     "recipeGroup": 2,
     "ingredients": {
@@ -213,7 +251,45 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:botanicalpitch-botanicalfiber-hot"
+          "code": "botanicalleathers:botanicalpitch-pineappleleaf-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-medium-botanicalfiber",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Medium Hide - Cactus (Hot) [ADDED]",
+    "ingredientPattern": "PP,H_",
+    "recipeGroup": 2,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:botanicalpitch-cactusfiber-hot"
         },
         "requiresLitres": 1
       }
@@ -304,7 +380,7 @@
     }
   },
   {
-    "comment": "Large Hide - Pineapple (Hot) [NEW]",
+    "comment": "Large Hide - Pineapple (Hot) [FIXED]",
     "ingredientPattern": "PP,PP,H_",
     "recipeGroup": 3,
     "ingredients": {
@@ -327,7 +403,45 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:botanicalpitch-botanicalfiber-hot"
+          "code": "botanicalleathers:botanicalpitch-pineappleleaf-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-large-botanicalfiber",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Large Hide - Cactus (Hot) [ADDED]",
+    "ingredientPattern": "PP,PP,H_",
+    "recipeGroup": 3,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:botanicalpitch-cactusfiber-hot"
         },
         "requiresLitres": 1
       }
@@ -418,7 +532,7 @@
     }
   },
   {
-    "comment": "Huge Hide - Pineapple (Hot) [NEW]",
+    "comment": "Huge Hide - Pineapple (Hot) [FIXED]",
     "ingredientPattern": "PPP,PPP,H__",
     "recipeGroup": 4,
     "ingredients": {
@@ -441,7 +555,45 @@
       "liquidContainerProps": {
         "requiresContent": {
           "type": "item",
-          "code": "botanicalleathers:botanicalpitch-botanicalfiber-hot"
+          "code": "botanicalleathers:botanicalpitch-pineappleleaf-hot"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "shapeless": false,
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:botanicalhide-prepared-huge-botanicalfiber",
+      "stacksize": 1
+    }
+  },
+  {
+    "comment": "Huge Hide - Cactus (Hot) [ADDED]",
+    "ingredientPattern": "PPP,PPP,H__",
+    "recipeGroup": 4,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "game:bowl-*-fired",
+        "name": "bowl",
+        "returnedStack": {
+          "type": "block",
+          "code": "game:bowl-{bowl}-fired"
+        }
+      },
+      "H": {
+        "type": "item",
+        "code": "game:hammer-*",
+        "isTool": true
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "botanicalleathers:botanicalpitch-cactusfiber-hot"
         },
         "requiresLitres": 1
       }

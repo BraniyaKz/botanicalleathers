@@ -29,7 +29,10 @@
     }
   },
   "attributes": {
-    "handbook": { "groupBy": [ "slicedbotanicalpulp" ] },
+    "handbook": {
+      "groupBy": 
+      [ "slicedbotanicalpulp-*" ]
+    },
     "isPreparedIngredient": true,
     "displaycaseable": true,
     "shelvable": true,
