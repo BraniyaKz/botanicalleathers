@@ -1,5 +1,4 @@
 v1.1.0 - Compatibility Update - 2024-06-15
 - Added compatibility recipes for A Culinary Artillery: ACA barks are now valid inputs for the cork path.
 - Added: compatibilty for ACA users. bark can be used for making soakedcork. debarked-oak-log gives back 4 barks.
-- Updated 'harvestbark' patch: The custom Axe+Hammer recipe is now disabled if AT or ACA are detected to favor their specific tools/mechanics.
 - Refactor: Added unique internal codes to all grid recipes for better debugging.
