@@ -23,6 +23,12 @@ A great way to value your waste! Recover the **mash** from your Apples and Mango
 🌵 **III. The Fiber Path (Resilience & Climate)**
 Survive in deserts and tropics using structural fibers. Harvest **Pineapple Leaves** or **Cactus Fibers** to create a tough hide capable of rivaling animal leather.
 
+🌳 IV. The Cork Path (Engineering & Assembly)
+The pinnacle of botanical crafting. Collect the bark when stripping your Oak logs to extract a unique, resilient material.
+
+The Process: A realistic production chain. Bark must be soaked, dried, then bundled and steamed in a fire to gain elasticity.
+The Assembly: Unlike pastes, cork is worked in sheets. Use Resin to glue sheets together, and Linen to reinforce the huge hides (Vegetable Composite).
+
 ---
 
 ### ⚙️ Seamless Integration
