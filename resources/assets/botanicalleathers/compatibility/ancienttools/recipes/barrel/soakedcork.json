@@ -1,5 +1,5 @@
 {
-  "code": "soakcork-aculinaryartillery",
+  "code": "soakcork-ancienttools",
   "sealHours": 72,
   "ingredients": [
     {
@@ -9,7 +9,7 @@
     },
     {
       "type": "item",
-      "code": "aculinaryartillery:bark-oak-dry",
+      "code": "ancienttools:bark-oak",
       "quantity": 1
     }
   ],

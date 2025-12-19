@@ -9,6 +9,10 @@
       {
         "modid": "aculinaryartillery",
         "invert": true
+      },
+      {
+        "modid": "ancienttools",
+        "invert": true
       }
     ]
   },
@@ -21,6 +25,10 @@
     "dependsOn": [
       {
         "modid": "aculinaryartillery",
+        "invert": true
+      },
+      {
+        "modid": "ancienttools",
         "invert": true
       }
     ]
@@ -38,6 +46,10 @@
     "dependsOn": [
       {
         "modid": "aculinaryartillery",
+        "invert": true
+      },
+      {
+        "modid": "ancienttools",
         "invert": true
       }
     ]
@@ -78,6 +90,10 @@
     "dependsOn": [
       {
         "modid": "aculinaryartillery",
+        "invert": true
+      },
+      {
+        "modid": "ancienttools",
         "invert": true
       }
     ]
