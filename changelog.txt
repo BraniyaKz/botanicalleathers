@@ -1,3 +1,20 @@
+v1.2.0 - Compatibility Update - 2026-01-29
+
+ADDED
+- Full processing chain (pulp, paste, hide) for 14 new fruits from 'Wildcraft: Fruits and Nuts'.
+  * Exotics: Jackfruit, Pandan, Quince.
+  * Grapes: Black, Red, White, Fox, Virgin.
+  * Citrus: Grapefruit, Pomelo, Citron, Lemon, Lime, Lemon Aspen.
+- Added vanilla 'Orange' variant for broader botanical leather options.
+- Compatibility for 'Mycodiversity' mushrooms. Added a dedicated patch to include modded fungi in the soaking process with full Handbook support.
+
+TWEAKED
+- Adjusted 'botanicalhide' GUI transform scales for better item previews in the Handbook and inventory.
+
+FIXED
+- Resolved an issue where ingredients were not displaying in the Handbook for Barrel recipes.
+
+
 v1.1.0 - Compatibility Update - 2025-12-19
 - Added compatibility recipes for Ancient Tools: ACA barks are now valid inputs for the cork path.
 - Added: compatibilty for A Culinary Artillery users. bark can be used for making soakedcork. debarked-oak-log gives back 4 barks.
