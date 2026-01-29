@@ -1,11 +1,20 @@
-v1.2.0 - Compatibility Update - 2025-12-30
-- Added compatibility for 14 new fruits from Wildcraft: Fruits and Nuts.
-- Implemented full processing chain (pulp, paste, hide) for:
+v1.2.0 - Compatibility Update - 2026-01-29
+
+ADDED
+- Full processing chain (pulp, paste, hide) for 14 new fruits from 'Wildcraft: Fruits and Nuts'.
   * Exotics: Jackfruit, Pandan, Quince.
   * Grapes: Black, Red, White, Fox, Virgin.
   * Citrus: Grapefruit, Pomelo, Citron, Lemon, Lime, Lemon Aspen.
-- Added vanilla 'Orange' variant for broader compatibility.
-- Tweaked 'botanicalhide' GUI transform scales for better item preview.
+- Added vanilla 'Orange' variant for broader botanical leather options.
+
+TWEAKED
+- Adjusted 'botanicalhide' GUI transform scales for better item previews in the Handbook and inventory.
+
+FIXED
+- Resolved an issue where ingredients were not displaying in the Handbook for Barrel recipes.
+- Implemented icon cycling for Mushrooms and Botanical Hides in barrel recipes to correctly show all valid variants.
+- Fixed a naming typo in hide variants (fungal -> fungus) preventing recipe resolution.
+
 
 v1.1.0 - Compatibility Update - 2025-12-19
 - Added compatibility recipes for A Culinary Artillery: ACA barks are now valid inputs for the cork path.
