@@ -1,0 +1,61 @@
+{
+  "code": "soakmushrooms",
+  "sealHours": 48,
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "game:waterportion",
+      "litres": 10
+    },
+    {
+      "type": "block",
+      "code": "game:mushroom-*-normal",
+      "name": "type",
+      "allowedVariants": [
+        "aniseedfunnel",
+        "artistsconk",
+        "aspenbolete",
+        "beefsteakfungus",
+        "birchbolete",
+        "blewit",
+        "bluechanterelle",
+        "candycap",
+        "coccora",
+        "desertshaggymane",
+        "destroyingangel",
+        "dyerspolypore",
+        "falseearthstar",
+        "flattoppedclubcoral",
+        "friedchickenmushroom",
+        "greenearthtongue",
+        "hawkwing",
+        "hedgehogmushroom",
+        "honeymushroom",
+        "matsutake",
+        "northernreddye",
+        "parasol",
+        "purplefairyclub",
+        "queenbolete",
+        "questionablestropharia",
+        "redbeltedconk",
+        "redramaria",
+        "shaggymane",
+        "shrimpmushroom",
+        "slipperyjack",
+        "stinkhorn",
+        "sulfurtuft",
+        "turkeytail",
+        "westernvarnishedconk",
+        "winterchanterelle",
+        "yellowramaria",
+        "yellowstainer"
+      ],
+      "quantity": 5
+    }
+  ],
+  "output": {
+    "type": "item",
+    "code": "botanicalleathers:soakedmushroom-slop",
+    "stackSize": 1
+  }
+}
