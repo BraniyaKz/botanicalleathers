@@ -1,6 +1,8 @@
 v1.2.1 - fix - 2026-02-26
 FIXED
-- 
+- Fixed a bug where tree mushrooms (polypores) were not recognized in the soaking barrel recipe.
+- Improved recipe logic: separated "Ground" mushrooms (Items) and "Tree" mushrooms (Blocks) to ensure correct engine detection.
+
 
 v1.2.0 - Compatibility Update - 2026-01-29
 
