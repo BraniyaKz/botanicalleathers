@@ -1,3 +1,7 @@
+v1.2.1 - fix - 2026-02-26
+FIXED
+- 
+
 v1.2.0 - Compatibility Update - 2026-01-29
 
 ADDED
