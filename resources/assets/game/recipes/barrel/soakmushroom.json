@@ -1,61 +1,87 @@
-{
-  "code": "soakmushrooms",
-  "sealHours": 48,
-  "ingredients": [
-    {
+[
+  {
+    "code": "soakmushrooms-ground",
+    "sealHours": 48,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "litres": 10
+      },
+      {
+        "type": "block",
+        "code": "game:mushroom-*-normal",
+        "name": "type",
+        "allowedVariants": [
+          "flyagaric",
+          "fieldmushroom",
+          "almondmushroom",
+          "bitterbolete",
+          "blacktrumpet",
+          "chanterelle",
+          "commonmorel",
+          "deathcap",
+          "devilstooth",
+          "devilbolete",
+          "earthball",
+          "elfinsaddle",
+          "golddropmilkcap",
+          "greencrackedrussula",
+          "indigomilkcap",
+          "jackolantern",
+          "kingbolete",
+          "lobster",
+          "orangeoakbolete",
+          "paddystraw",
+          "puffball",
+          "redwinecap",
+          "saffronmilkcap",
+          "violetwebcap",
+          "witchhat"
+        ],
+        "quantity": 5
+      }
+    ],
+    "output": {
       "type": "item",
-      "code": "game:waterportion",
-      "litres": 10
-    },
-    {
-      "type": "block",
-      "code": "game:mushroom-*-normal",
-      "name": "type",
-      "allowedVariants": [
-        "flyagaric",
-        "fieldmushroom",
-        "almondmushroom",
-        "bitterbolete",
-        "blacktrumpet",
-        "chanterelle",
-        "commonmorel",
-        "deathcap",
-        "devilstooth",
-        "devilbolete",
-        "earthball",
-        "elfinsaddle",
-        "golddropmilkcap",
-        "greencrackedrussula",
-        "indigomilkcap",
-        "jackolantern",
-        "kingbolete",
-        "lobster",
-        "orangeoakbolete",
-        "paddystraw",
-        "puffball",
-        "redwinecap",
-        "saffronmilkcap",
-        "violetwebcap",
-        "witchhat",
-        "beardedtooth",
-        "chickenofthewoods",
-        "dryadsaddle",
-        "pinkoyster",
-        "tinderhoof",
-        "whiteoyster",
-        "reishi",
-        "funeralbell",
-        "deerear",
-        "livermushroom",
-        "pinkbonnet",
-        "shiitake"
-      ],
-      "quantity": 5
+      "code": "botanicalleathers:soakedmushroom-slop",
+      "stackSize": 1
     }
-  ],
-  "output": {
-    "type": "item",
-    "code": "botanicalleathers:soakedmushroom-slop",
-    "stackSize": 1
+  },
+  {
+    "code": "soakmushrooms-tree",
+    "sealHours": 48,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "litres": 10
+      },
+      {
+        "type": "block",
+        "code": "game:mushroom-*-normal-north",
+        "name": "type",
+        "allowedVariants": [
+          "beardedtooth",
+          "chickenofthewoods",
+          "dryadsaddle",
+          "pinkoyster",
+          "tinderhoof",
+          "whiteoyster",
+          "reishi",
+          "funeralbell",
+          "deerear",
+          "livermushroom",
+          "pinkbonnet",
+          "shiitake"
+        ],
+        "quantity": 5
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "botanicalleathers:soakedmushroom-slop",
+      "stackSize": 1
+    }
   }
-}
+]
