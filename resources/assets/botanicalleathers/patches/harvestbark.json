@@ -6,14 +6,9 @@
     "value": "log-placed-oak-ud",
     "side": "Server",
     "dependsOn": [
-      {
-        "modid": "aculinaryartillery",
-        "invert": true
-      },
-      {
-        "modid": "ancienttools",
-        "invert": true
-      }
+      { "modId": "aculinaryartillery", "invert": true },
+      { "modId": "ancienttools", "invert": true },
+      { "modId": "indappledgroves", "invert": true }
     ]
   },
   {
@@ -23,14 +18,9 @@
     "value": "debarkedlog-oak-ud",
     "side": "Server",
     "dependsOn": [
-      {
-        "modid": "aculinaryartillery",
-        "invert": true
-      },
-      {
-        "modid": "ancienttools",
-        "invert": true
-      }
+      { "modId": "aculinaryartillery", "invert": true },
+      { "modId": "ancienttools", "invert": true },
+      { "modId": "indappledgroves", "invert": true }
     ]
   },
   {
@@ -44,14 +34,9 @@
     },
     "side": "Server",
     "dependsOn": [
-      {
-        "modid": "aculinaryartillery",
-        "invert": true
-      },
-      {
-        "modid": "ancienttools",
-        "invert": true
-      }
+      { "modId": "aculinaryartillery", "invert": true },
+      { "modId": "ancienttools", "invert": true },
+      { "modId": "indappledgroves", "invert": true }
     ]
   },
   {
@@ -61,41 +46,20 @@
     "value": {
       "ingredientPattern": "AHL",
       "ingredients": {
-        "A": {
-          "type": "item",
-          "code": "axe-*",
-          "isTool": true
-        },
-        "H": {
-          "type": "item",
-          "code": "hammer-*",
-          "isTool": true
-        },
-        "L": {
-          "type": "block",
-          "code": "log-placed-*-ud",
-          "name": "wood"
-        }
+        "A": { "type": "item", "code": "axe-*", "isTool": true },
+        "H": { "type": "item", "code": "hammer-*", "isTool": true },
+        "L": { "type": "block", "code": "log-placed-*-ud", "name": "wood" }
       },
       "width": 3,
       "height": 1,
       "shapeless": true,
-      "output": {
-        "type": "block",
-        "code": "debarkedlog-{wood}-ud",
-        "quantity": 1
-      }
+      "output": { "type": "block", "code": "debarkedlog-{wood}-ud", "quantity": 1 },
     },
     "side": "Server",
     "dependsOn": [
-      {
-        "modid": "aculinaryartillery",
-        "invert": true
-      },
-      {
-        "modid": "ancienttools",
-        "invert": true
-      }
+      { "modId": "aculinaryartillery", "invert": true },
+      { "modId": "ancienttools", "invert": true },
+      { "modId": "indappledgroves", "invert": true }
     ]
   }
 ]
