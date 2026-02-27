@@ -1,0 +1,10 @@
+[
+  {
+    "file": "botanicalleathers:recipes/barrel/soakedcork-indappledgroves.json",
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "indappledgroves" } ]
+  }
+]
