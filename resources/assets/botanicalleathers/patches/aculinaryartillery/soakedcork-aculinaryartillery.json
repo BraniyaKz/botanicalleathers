@@ -1,0 +1,13 @@
+[
+  {
+    "file": "botanicalleathers:recipes/barrel/soakedcork-aculinaryartillery.json",
+    "op": "replace",
+    "path": "/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [
+      { "modId": "aculinaryartillery" },
+      { "modId": "ancienttools" }
+    ]
+  }
+]
