@@ -1,66 +1,34 @@
 [
   {
-    "enabled": false,
-    "code": "soakedhidelime",
-    "sealHours": 20,
-    "ingredients": [
-      { "type": "item", "code": "game:limewaterportion", "litres": 2, "consumeLitres": 2 },
-      {
-        "type": "item",
-        "code": "botanicalleathers:botanicalhide-prepared-small-*",
-        "allowedVariants": [ "fungus", "fruit", "cork", "botanicalfiber" ],
-        "name": "type",
-        "quantity": 1
-      }
-    ],
-    "output": { "type": "item", "code": "game:hide-soaked-small", "stackSize": 1 }
+    "file": "botanicalleathers:recipes/barrel/soakedbotanicalhide-lime-mycodiversity.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "mycodiversity" } ]
   },
   {
-    "enabled": false,
-    "code": "soakedhidelime",
-    "sealHours": 20,
-    "ingredients": [
-      { "type": "item", "code": "game:limewaterportion", "litres": 4, "consumeLitres": 4 },
-      {
-        "type": "item",
-        "code": "botanicalleathers:botanicalhide-prepared-medium-*",
-        "allowedVariants": [ "fungus", "fruit", "cork", "botanicalfiber" ],
-        "name": "type",
-        "quantity": 1
-      }
-    ],
-    "output": { "type": "item", "code": "game:hide-soaked-medium", "stackSize": 1 }
+    "file": "botanicalleathers:recipes/barrel/soakedbotanicalhide-lime-mycodiversity.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "mycodiversity" } ]
   },
   {
-    "enabled": false,
-    "code": "soakedhidelime",
-    "sealHours": 20,
-    "ingredients": [
-      { "type": "item", "code": "game:limewaterportion", "litres": 6, "consumeLitres": 6 },
-      {
-        "type": "item",
-        "code": "botanicalleathers:botanicalhide-prepared-large-*",
-        "allowedVariants": [ "fungus", "fruit", "cork", "botanicalfiber" ],
-        "name": "type",
-        "quantity": 1
-      }
-    ],
-    "output": { "type": "item", "code": "game:hide-soaked-large", "stackSize": 1 }
+    "file": "botanicalleathers:recipes/barrel/soakedbotanicalhide-lime-mycodiversity.json",
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "mycodiversity" } ]
   },
   {
-    "enabled": false,
-    "code": "soakedhidelime",
-    "sealHours": 20,
-    "ingredients": [
-      { "type": "item", "code": "game:limewaterportion", "litres": 10, "consumeLitres": 10 },
-      {
-        "type": "item",
-        "code": "botanicalleathers:botanicalhide-prepared-huge-*",
-        "allowedVariants": [ "fungus", "fruit", "cork", "botanicalfiber" ],
-        "name": "type",
-        "quantity": 1
-      }
-    ],
-    "output": { "type": "item", "code": "game:hide-soaked-huge", "stackSize": 1 }
+    "file": "botanicalleathers:recipes/barrel/soakedbotanicalhide-lime-mycodiversity.json",
+    "op": "replace",
+    "path": "/3/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "mycodiversity" } ]
   }
 ]
