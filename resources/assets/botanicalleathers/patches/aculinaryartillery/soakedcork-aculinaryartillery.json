@@ -2,12 +2,24 @@
   {
     "file": "botanicalleathers:recipes/barrel/soakedcork-aculinaryartillery.json",
     "op": "replace",
-    "path": "/enabled",
+    "path": "/0/enabled",
     "value": true,
     "side": "Server",
     "dependsOn": [
       { "modId": "aculinaryartillery" },
       { "modId": "ancienttools" }
+    ]
+  },
+  {
+    "file": "botanicalleathers:recipes/barrel/soakedcork-aculinaryartillery.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [
+      { "modId": "aculinaryartillery" },
+      { "modId": "indappledgroves" },
+      { "modId": "ancienttools", "invert": true }
     ]
   }
 ]
