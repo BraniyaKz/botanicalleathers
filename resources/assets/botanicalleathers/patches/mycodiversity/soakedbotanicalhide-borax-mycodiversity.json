@@ -1,0 +1,34 @@
+[
+  {
+    "file": "botanicalleathers:recipes/barrel/soakedbotanicalhide-borax-mycodiversity.json",
+    "op": "replace",
+    "path": "/0/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "mycodiversity" } ]
+  },
+  {
+    "file": "botanicalleathers:recipes/barrel/soakedbotanicalhide-borax-mycodiversity.json",
+    "op": "replace",
+    "path": "/1/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "mycodiversity" } ]
+  },
+  {
+    "file": "botanicalleathers:recipes/barrel/soakedbotanicalhide-borax-mycodiversity.json",
+    "op": "replace",
+    "path": "/2/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "mycodiversity" } ]
+  },
+  {
+    "file": "botanicalleathers:recipes/barrel/soakedbotanicalhide-borax-mycodiversity.json",
+    "op": "replace",
+    "path": "/3/enabled",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modId": "mycodiversity" } ]
+  }
+]
