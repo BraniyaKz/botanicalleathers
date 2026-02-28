@@ -1,10 +1,22 @@
-{
-  "enabled": false,
-  "code": "soakcork-aculinaryartillery",
-  "sealHours": 72,
-  "ingredients": [
-    { "type": "item", "code": "game:waterportion", "litres": 2 },
-    { "type": "item", "code": "ancienttools:barkchunk-oak", "quantity": 1 }
-  ],
-  "output": { "type": "item", "code": "botanicalleathers:corkmaterial-soaked", "stackSize": 1 }
-}
+[
+  {
+    "enabled": false,
+    "code": "soakcork-aculinaryartillery-ancienttools",
+    "sealHours": 72,
+    "ingredients": [
+      { "type": "item", "code": "game:waterportion", "litres": 2 },
+      { "type": "item", "code": "ancienttools:barkchunk-oak", "quantity": 1 }
+    ],
+    "output": { "type": "item", "code": "botanicalleathers:corkmaterial-soaked", "stackSize": 1 }
+  },
+  {
+    "enabled": false,
+    "code": "soakcork-aculinaryartillery-indappledgroves",
+    "sealHours": 72,
+    "ingredients": [
+      { "type": "item", "code": "game:waterportion", "litres": 2 },
+      { "type": "item", "code": "indappledgroves:bark-oak-soaked", "quantity": 1 }
+    ],
+    "output": { "type": "item", "code": "botanicalleathers:corkmaterial-soaked", "stackSize": 1 }
+  }
+]
