@@ -1,0 +1,34 @@
+[
+  {
+    "enabled": false,
+    "code": "soakmushrooms-myco-ground",
+    "sealHours": 48,
+    "ingredients": [
+      { "type": "item", "code": "game:waterportion", "litres": 10 },
+      {
+        "type": "block",
+        "code": "game:mushroom-*-normal",
+        "allowedVariants": [ "aniseedfunnel", "aspenbolete", "birchbolete", "blewit", "bluechanterelle", "candycap", "coccora", "desertshaggymane", "destroyingangel", "dyerspolypore", "falseearthstar", "flattoppedclubcoral", "friedchickenmushroom", "greenearthtongue", "hawkwing", "hedgehogmushroom", "honeymushroom", "matsutake", "northernreddye", "parasol", "purplefairyclub", "queenbolete", "questionablestropharia", "redramaria", "shaggymane", "shrimpmushroom", "slipperyjack", "stinkhorn", "sulfurtuft", "winterchanterelle", "yellowramaria", "yellowstainer" ],
+        "name": "type",
+        "quantity": 5
+      }
+    ],
+    "output": { "type": "item", "code": "botanicalleathers:soakedmushroom-slop", "stackSize": 1 }
+  },
+  {
+    "enabled": false,
+    "code": "soakmushrooms-myco-tree",
+    "sealHours": 48,
+    "ingredients": [
+      { "type": "item", "code": "game:waterportion", "litres": 10 },
+      {
+        "type": "block",
+        "code": "game:mushroom-*-normal-north",
+        "allowedVariants": [ "artistsconk", "beefsteakfungus", "redbeltedconk", "turkeytail", "westernvarnishedconk" ],
+        "name": "type",
+        "quantity": 5
+      }
+    ],
+    "output": { "type": "item", "code": "botanicalleathers:soakedmushroom-slop", "stackSize": 1 }
+  }
+]
